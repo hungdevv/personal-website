@@ -10,6 +10,7 @@
 :root{
   --first-color: #4070F4;
   --second-color: #0E2431;
+  --white-color: #FAFAFF;
 }
 
 /*===== Fuente y tipografia =====*/
@@ -18,12 +19,14 @@
   --big-font-size: 2rem;
   --h2-font-size: 1.25rem;
   --normal-font-size: 0.938rem;
+  --small-font-size: .813rem;
 }
 @media screen and (min-width: 768px){
   :root{
     --big-font-size: 3.5rem;
     --h2-font-size: 2rem;
     --normal-font-size: 1rem;
+    --small-font-size: .875rem;
   }
 }
 
@@ -255,6 +258,22 @@ img{
 }
 .skills__subtitle{
   margin-bottom: var(--mb-2);
+}
+.skills__name{
+  display: inline-block;
+  font-size: var(--small-font-size);
+  margin-right: var(--mb-2);
+  margin-bottom: var(--mb-3);
+  padding: .25rem .5rem;
+  background-color: var(--white-color);
+  border-radius: .25rem;
+}
+.skills__name:hover{
+  background-color: var(--first-color);
+  color: var(--white-color);
+}
+.skills__img img{
+  border-radius: .5rem;
 }
 .skills__text{
   margin-bottom: var(--mb-4);
