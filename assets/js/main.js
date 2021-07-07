@@ -56,6 +56,9 @@ sr.reveal('.work__img',{interval: 200});
 /*SCROLL CONTACT*/
 sr.reveal('.contact__input',{interval: 200}); 
 
+sr.reveal('.card',{interval: 200}); 
+sr.reveal('.skills__name',{interval: 300}); 
+
 
 
 
